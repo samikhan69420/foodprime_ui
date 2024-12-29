@@ -1,0 +1,32 @@
+name: food_delivery_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  carousel_slider: ^4.2.1
+  flashy_tab_bar2: ^0.0.10
+  flutter:
+    sdk: flutter
+  flutter_animate: ^4.5.0
+  flutter_staggered_animations: ^1.1.1
+  flutter_svg: ^2.0.10+1
+  flutter_touch_ripple: ^1.1.21
+  font_awesome_flutter: ^10.7.0
+  google_fonts: ^6.2.1
+  motion: ^2.0.0
+  msh_checkbox: ^2.0.1
+  smooth_page_indicator: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
